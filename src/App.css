@@ -1,0 +1,132 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  border: 2px solid orange;;
+}
+
+.drum-pad {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 1px solid orange;
+  text-align: center;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.clip {
+  display: none
+}
+
+#display{
+  background-color: #7270707b;
+  color: #fff;
+  height: 40px;
+  padding: 15px;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+
+.drum-pad:hover {
+  background-color: #ddd;
+}
+.title {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.display {
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.power-button {
+  font-size: 18px;
+  padding: 8px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.power-button.on {
+  background-color: #38f8084a;
+}
+
+.power-button.off {
+  background-color: #c818184e;
+}
+
+.volume-control {
+  display: inline-block;
+  align-items: center;
+  margin: 30px;
+}
+
+.volume-control label {
+  margin-right: 10px;
+  font-size:24px ;
+  font-weight: bold;
+}
+
+.drum-pad-container {
+  display: flex;
+  justify-content: center;
+}
+
+.drum-pad-row {
+  display: flex;
+}
+
+.drum-pad {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  background-color: #ccc;
+  color: #000;
+  font-size: 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.drum-pad.active {
+  background-color: #61dafb;
+}
+
+.clip {
+  display: none;
+}
+
+.all_button{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.volume [type="range"] {
+  width: 100%;
+  height: 8px;
+  background-color: #f5f5f5;
+  color: #000;
+  border-radius: 5px;
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
